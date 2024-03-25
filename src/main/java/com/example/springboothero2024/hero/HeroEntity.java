@@ -18,4 +18,6 @@ public class HeroEntity extends AbstractCharacter {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String superPower;
+    private Weapon weapon;
+
 }
